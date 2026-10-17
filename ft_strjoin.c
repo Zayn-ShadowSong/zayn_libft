@@ -6,7 +6,7 @@
 /*   By: kythu <kythu@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/04 11:48:06 by kythu             #+#    #+#             */
-/*   Updated: 2026/10/04 12:25:21 by kythu            ###   ########.fr       */
+/*   Updated: 2026/10/17 14:06:56 by kythu            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ char	*ft_strjoin(char const *s1, char const *s2)
 {
 	size_t		len1;
 	size_t		len2;
-	char	*dest;
+	char		*dest;
 
 	len1 = ft_strlen(s1);
 	len2 = ft_strlen(s2);
